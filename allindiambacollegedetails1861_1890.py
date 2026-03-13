@@ -15,26 +15,26 @@ from selenium.common.exceptions import TimeoutException
 
 # ---------------- URLS ----------------
 BASE_URL = [
-  "https://www.shiksha.com/university/central-tribal-university-of-andhra-pradesh-vizianagaram-203161",
-  "https://www.shiksha.com/college/postgraduate-institute-of-agricultural-business-management-chakur-vasantrao-naik-marathwada-krishi-vidyapeeth-maharashtra-other-106299",
-  "https://www.shiksha.com/college/shree-swaminarayan-institute-of-management-and-it-porbandar-146567",
-  "https://www.shiksha.com/university/j-s-university-firozabad-179601",
-  "https://www.shiksha.com/college/yenepoya-university-bengaluru-campus-kannur-bangalore-212365",
-  "https://www.shiksha.com/university/mind-power-university-nainital-228457",
-  "https://www.shiksha.com/college/srinivas-group-of-colleges-mangalore-203",
-  "https://www.shiksha.com/college/arulmigu-meenakshi-amman-college-of-engineering-kanchipuram-19535",
-  "https://www.shiksha.com/university/the-icfai-university-raipur-38055",
-  "https://www.shiksha.com/university/indus-international-university-iiu-una-38107",
-  "https://www.shiksha.com/college/dev-bhoomi-group-of-institutions-dbgi-saharanpur-47803",
-  "https://www.shiksha.com/college/indian-maritime-management-and-research-institute-immri-business-school-immri-george-town-chennai-48962",
-  "https://www.shiksha.com/college/aurora-s-scientific-technological-and-research-academy-chandrayanagutta-hyderabad-57849",
-  "https://www.shiksha.com/college/rvs-group-of-institution-dindigul-campus-151891",
-  "https://www.shiksha.com/college/ahmedabad-institute-of-hospitality-management-154197",
-  "https://www.shiksha.com/college/jai-shriram-engineering-college-tirupur-193829",
-  "https://www.shiksha.com/college/advanced-educational-institutions-palwal-36219",
-  "https://www.shiksha.com/college/christu-jayanthi-jubilee-college-cjjc-guntur-37371",
-  "https://www.shiksha.com/college/abhay-memorial-trust-group-of-institutions-allahabad-43348",
-  "https://www.shiksha.com/college/school-of-management-sciences-apeejay-stya-university-gurgaon-51587",
+  "https://www.shiksha.com/college/government-arts-college-udhagamandalam-tamil-nadu-other-71789",
+  "https://www.shiksha.com/college/people-s-college-nanded-74423",
+  "https://www.shiksha.com/college/sagar-institute-of-pharmaceutical-sciences-88057",
+  "https://www.shiksha.com/college/rc-patel-institute-of-pharmacy-shirpur-89121",
+  "https://www.shiksha.com/college/sarada-degree-college-prakasam-115721",
+  "https://www.shiksha.com/university/shri-dharmasthala-manjunatheshwara-university-dharwad-182477",
+  "https://www.shiksha.com/college/irik-international-college-of-aviation-aminjikarai-chennai-56627",
+  "https://www.shiksha.com/college/universal-college-of-engineering-and-technology-guntur-60995",
+  "https://www.shiksha.com/college/purnea-mahila-mahavidyalya-purnea-university-purnia-65937",
+  "https://www.shiksha.com/college/nagarjuna-institute-of-management-studies-ongole-68733",
+  "https://www.shiksha.com/college/ar-school-of-business-dindigul-70697",
+  "https://www.shiksha.com/college/dhananjayrao-gadgil-sahakari-prabandh-sansthan-nagpur-71447",
+  "https://www.shiksha.com/college/rajagiri-college-of-social-sciences-kochi-121925",
+  "https://www.shiksha.com/college/inurture-swarrnim-university-ahmedabad-145939",
+  "https://www.shiksha.com/college/laxmi-bai-sahuji-institute-of-management-jabalpur-147293",
+  "https://www.shiksha.com/college/sree-amman-institute-of-management-and-research-erode-148403",
+  "https://www.shiksha.com/college/christ-institute-of-management-ghaziabad-199863",
+  "https://www.shiksha.com/college/footwear-design-and-development-institute-guna-204805",
+  "https://www.shiksha.com/college/sree-sastha-institute-of-engineering-and-technology-powered-by-sunstone-chembarambakkam-chennai-212259",
+  "https://www.shiksha.com/college/gla-university-seekho-mathura-212297",
 ]
 
 
@@ -9243,7 +9243,7 @@ def parse_faq_scholarships_section(driver, URLS):
 def scrape_mba_colleges():
     driver = create_driver()
     all_data = []
-    c_count =1871
+    c_count =2170
 
     try:
         for base_url in BASE_URL:
